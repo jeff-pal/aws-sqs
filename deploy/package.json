@@ -1,0 +1,16 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tf:deploy": "terraform init && terraform plan -out terraform.tfplan && terraform apply terraform.tfplan",
+    "tf:plan": "terraform plan -out terraform.tfplan",
+    "tf:apply": "terraform apply terraform.tfplan",
+    "tf:destroy": "terraform destroy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
