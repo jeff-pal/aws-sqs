@@ -24,7 +24,8 @@
     "url": "https://github.com/jeff-pal/nodejs-typescript.git"
   },
   "dependencies": {
-    "aws-sdk": "^2.1077.0",
-    "dotenv": "^16.0.0"
+    "@aws-sdk/client-sqs": "^3.52.0",
+    "dotenv": "^16.0.0",
+    "node-color-log": "^7.0.0"
   }
 }
